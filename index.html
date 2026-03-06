@@ -1,0 +1,635 @@
+﻿<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KI-Miniparty | Hybrid spielen. Gemeinsam erleben.</title>
+  <meta
+    name="description"
+    content="KI-Miniparty ist ein hybrides Party- und Strategiespiel, das Tischrunde, Web-App und KI-Spielleitung in einer modernen Landingpage vereint."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero-header">
+    <div class="container topbar">
+      <a class="brand" href="#top" aria-label="Zur Startseite von KI-Miniparty">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">KI-MINIPARTY</span>
+      </a>
+
+      <button
+        class="utility-button"
+        type="button"
+        aria-label="Zum Inhaltsbereich springen"
+        data-scroll-target="#discover"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Optional: assets/hero.jpg kann lokal hinterlegt werden. Der Gradient bleibt als Fallback aktiv. -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="hero-label">Next Generation Social Play</p>
+        <h1 id="hero-title">KI-MINIPARTY</h1>
+        <p class="hero-subtitle">Das Spiel, das deine Welt verändert.</p>
+        <p class="hero-description">
+          Wo menschliche Kreativität auf künstliche Intelligenz trifft. Erlebe einen hybriden
+          Spieleabend der nächsten Generation.
+        </p>
+        <a class="cta-button" href="#discover">Jetzt die Party starten</a>
+        <a class="scroll-hint" href="#discover">Scrollen, um mehr zu entdecken</a>
+      </div>
+    </section>
+
+    <section class="content-shell" id="discover" aria-labelledby="discover-title">
+      <div class="container intro-section">
+        <p class="section-label">ENTDECKEN</p>
+
+        <div class="section-heading">
+          <h2 id="discover-title">Alles über KI-Miniparty</h2>
+
+          <div class="intro-copy">
+            <p>
+              KI-Miniparty ist ein hybrides Party- und Strategiespiel für 3 bis 8 Personen, das
+              analoges Zusammensitzen mit einer digitalen Spielleitung verbindet. Ihr spielt
+              gemeinsam am Tisch, aber das Spielfeld, der Fortschritt und das Joker-System laufen
+              über eine Web-App auf dem Smartphone. Die eigentliche Besonderheit ist der externe
+              KI-Spielleiter, der eure Entscheidungen kommentiert, Aufgaben generiert, Regeln
+              auslegt und euch immer wieder in unerwartete Situationen wirft.
+            </p>
+            <p>
+              Was dabei entsteht, ist keine klassische Runde, sondern eine kleine Story mit
+              Momenten, die man danach noch erzählt: ein zu mutiger Bluff, ein Joker zur falschen
+              Zeit, eine KI, die euch gnadenlos roastet, oder eine spontane Allianz, die in der
+              nächsten Minute wieder auseinanderfällt. KI-Miniparty ist schnell zu lernen, schwer
+              zu meistern und jedes Mal anders.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-divider" aria-hidden="true"></div>
+
+        <dl class="facts-bar" aria-label="Eckdaten zu KI-Miniparty">
+          <div class="fact-item">
+            <dt>Spieler</dt>
+            <dd>3–8</dd>
+          </div>
+          <div class="fact-item">
+            <dt>Dauer</dt>
+            <dd>20–45 Min</dd>
+          </div>
+          <div class="fact-item">
+            <dt>Modus</dt>
+            <dd>Lokal + Web-App</dd>
+          </div>
+          <div class="fact-item">
+            <dt>Ideal für</dt>
+            <dd>Freunde &amp; Feiern</dd>
+          </div>
+          <div class="fact-item">
+            <dt>Humor</dt>
+            <dd>Einstellbar</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="container tabs-section" id="tabs">
+        <div
+          class="tab-list"
+          role="tablist"
+          aria-label="Inhaltsbereiche zu KI-Miniparty"
+          aria-orientation="horizontal"
+        >
+          <button
+            id="tab-konzept"
+            class="tab-button is-active"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="panel-konzept"
+            tabindex="0"
+            data-tab="konzept"
+          >
+            KONZEPT
+          </button>
+          <button
+            id="tab-trailer"
+            class="tab-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-trailer"
+            tabindex="-1"
+            data-tab="trailer"
+          >
+            TRAILER
+          </button>
+          <button
+            id="tab-musik"
+            class="tab-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-musik"
+            tabindex="-1"
+            data-tab="musik"
+          >
+            MUSIK
+          </button>
+          <button
+            id="tab-spiele"
+            class="tab-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-spiele"
+            tabindex="-1"
+            data-tab="spiele"
+          >
+            SPIELE
+          </button>
+          <button
+            id="tab-regeln"
+            class="tab-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-regeln"
+            tabindex="-1"
+            data-tab="regeln"
+          >
+            REGELN
+          </button>
+          <button
+            id="tab-stimmen"
+            class="tab-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-stimmen"
+            tabindex="-1"
+            data-tab="stimmen"
+          >
+            STIMMEN
+          </button>
+          <button
+            id="tab-geschichte"
+            class="tab-button"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-geschichte"
+            tabindex="-1"
+            data-tab="geschichte"
+          >
+            GESCHICHTE
+          </button>
+        </div>
+
+        <div class="panel-stack">
+          <article
+            id="panel-konzept"
+            class="tab-panel is-active"
+            role="tabpanel"
+            aria-labelledby="tab-konzept"
+            data-panel="konzept"
+          >
+            <div class="panel-head">
+              <p class="panel-label">KONZEPT</p>
+              <h3>Analog trifft Digital. Die Evolution des Brettspiels.</h3>
+            </div>
+
+            <div class="panel-copy">
+              <p>
+                Vergiss alles, was du über klassische Brettspiele oder isolierte Videospiele
+                weißt. KI-Miniparty ist kein gewöhnliches Spiel, sondern eine lebendige Brücke
+                zwischen zwei Welten. Während unsere Web-App das Spielfeld, die Züge, den
+                Fortschritt und das Joker-System verwaltet, übernimmt eine externe künstliche
+                Intelligenz die Rolle des unberechenbaren Spielleiters.
+              </p>
+              <p>
+                Warum haben wir uns für diesen Hybrid-Ansatz entschieden? Weil wir davon überzeugt
+                sind, dass Technologie soziale Interaktion nicht ersetzen, sondern verstärken
+                sollte. Die KI fungiert nicht nur als Code im Hintergrund, sondern als aktiver
+                Schiedsrichter, härtester Gegner und größter Kritiker.
+              </p>
+              <p>
+                Du brauchst lediglich dein Smartphone, eine Handvoll Freunde und den Mut, dich der
+                Kreativität der Maschine zu stellen. Es ist Zeit, die Kontrolle abzugeben und sich
+                auf das Unvorhersehbare einzulassen.
+              </p>
+            </div>
+
+            <div class="card-grid three-up">
+              <article class="info-card">
+                <h4>Soziale Interaktion zuerst</h4>
+                <p>
+                  Das Herzstück bleibt der Tisch: Blicke, Diskussionen und spontane Allianzen.
+                  Die Technik organisiert das Spiel, aber die eigentliche Spannung entsteht zwischen
+                  den Menschen.
+                </p>
+              </article>
+              <article class="info-card">
+                <h4>KI als Spielleiter</h4>
+                <p>
+                  Die KI ist nicht nur eine unsichtbare Logik im Hintergrund. Sie bewertet,
+                  provoziert, verschärft Situationen und gibt jeder Runde ein Gegenüber mit eigener
+                  Stimme.
+                </p>
+              </article>
+              <article class="info-card">
+                <h4>Jede Runde anders</h4>
+                <p>
+                  Aufgaben, Kommentare und Wendungen reagieren auf eure Gruppe. Selbst bekannte
+                  Spielideen kippen durch Joker, Timing und KI-Entscheidungen in neue Richtungen.
+                </p>
+              </article>
+            </div>
+          </article>
+
+          <article
+            id="panel-trailer"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-trailer"
+            data-panel="trailer"
+            hidden
+          >
+            <div class="panel-head">
+              <p class="panel-label">TRAILER</p>
+              <h3>Was euch beim Spielen erwartet</h3>
+            </div>
+
+            <div class="panel-copy">
+              <p>
+                In KI-Miniparty sitzt ihr gemeinsam am Tisch, aber das Spiel lebt in zwei Welten:
+                Auf euren Smartphones läuft die Web-App, die Punkte, Züge, Fortschritt und das
+                Joker-System verwaltet. Gleichzeitig übernimmt eine externe KI die Rolle des
+                Spielleiters. Sie gibt Aufgaben, kommentiert Entscheidungen, reagiert auf eure
+                Aktionen und sorgt für unvorhersehbare Momente.
+              </p>
+              <p>
+                Ihr startet in einer Lobby, wählt euren Stil und werdet direkt von der KI
+                herausgefordert. Danach geht es durch kurze, abwechslungsreiche Minigames, in denen
+                ihr bluffen, schnell reagieren, kreativ antworten oder strategisch handeln müsst.
+                Joker können euch retten oder ins Chaos stürzen. Was euch erwartet, sind nicht nur
+                Punkte und Siege, sondern echte Erinnerungen: spontane Allianzen, hitzige
+                Diskussionen, Überraschungen und ein Finale, das alles auf den Kopf stellen kann.
+              </p>
+            </div>
+
+            <div class="trailer-layout">
+              <div class="video-card" aria-label="Trailer Platzhalter">
+                <button class="play-button" type="button" aria-label="Trailer Platzhalter">
+                  <span class="play-icon" aria-hidden="true"></span>
+                </button>
+                <div class="video-caption">
+                  <strong>Cinematic Preview</strong>
+                  <span>Bereit für lokales Video oder Embed</span>
+                </div>
+              </div>
+
+              <ul class="bullet-list" aria-label="Trailer Highlights">
+                <li>Dynamische KI-Moderation</li>
+                <li>Schnelle Minigames</li>
+                <li>Überraschende Wendungen</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            id="panel-musik"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-musik"
+            data-panel="musik"
+            hidden
+          >
+            <div class="panel-head">
+              <p class="panel-label">MUSIK</p>
+              <h3>Ein Soundtrack zwischen Party und Zukunft</h3>
+            </div>
+
+            <div class="panel-copy">
+              <p>
+                Der Soundtrack von KI-Miniparty verbindet elektronische Energie mit futuristischer
+                Atmosphäre. Kurze, treibende Loops begleiten die Minigames, während ruhige
+                Klangflächen für Spannung zwischen den Runden sorgen. Wenn die KI eingreift,
+                verändern Glitch-Sounds und digitale Akzente sofort die Stimmung.
+              </p>
+              <p>
+                Die Musik soll nicht nur im Hintergrund laufen, sondern die Dynamik des Spiels
+                verstärken. Sie motiviert, baut Druck auf und gibt dem hybriden Konzept einen
+                eigenen Charakter. So entsteht ein Spielerlebnis, das nicht nur sichtbar, sondern
+                auch hörbar besonders ist.
+              </p>
+            </div>
+
+            <div class="card-grid track-grid">
+              <article class="info-card">
+                <h4>Boot Sequence</h4>
+                <p>
+                  Ein kontrollierter Start mit warmen Synth-Flächen und leichtem Puls. Der Track
+                  setzt den futuristischen Rahmen, ohne die Gruppe zu überladen.
+                </p>
+              </article>
+              <article class="info-card">
+                <h4>Lobby Lights</h4>
+                <p>
+                  Leichte Percussion, klare Melodiebögen und ein ruhiger Drive. Ideal für den
+                  Moment, in dem die Runde ankommt und der Ton der Partie gesetzt wird.
+                </p>
+              </article>
+              <article class="info-card">
+                <h4>Joker Jam</h4>
+                <p>
+                  Mehr Bewegung, mehr Druck, mehr digitales Zucken. Sobald Risiken und Joker ins
+                  Spiel kommen, schiebt dieser Track die Runde hörbar nach vorne.
+                </p>
+              </article>
+              <article class="info-card">
+                <h4>Final Protocol</h4>
+                <p>
+                  Dunkler, breiter und entschlossener. Das Finale bekommt genau die Gravitas, die
+                  ein letzter Wendepunkt mit KI-Einfluss braucht.
+                </p>
+              </article>
+            </div>
+          </article>
+
+          <article
+            id="panel-spiele"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-spiele"
+            data-panel="spiele"
+            hidden
+          >
+            <div class="panel-head">
+              <p class="panel-label">SPIELE</p>
+              <h3>Minigames, Entscheidungen und Chaos</h3>
+            </div>
+
+            <div class="panel-copy">
+              <p>
+                KI-Miniparty besteht aus mehreren kurzen Minigames, die soziale Interaktion,
+                Kreativität, Reaktion und Strategie miteinander verbinden. Die KI kann bekannte
+                Spielideen spontan verändern, neue Bedingungen hinzufügen und dadurch jede Runde
+                anders machen.
+              </p>
+            </div>
+
+            <div class="card-grid game-grid">
+              <article class="info-card game-card">
+                <span class="card-number">01</span>
+                <h4>Prompt-Poker</h4>
+                <p>
+                  Die KI stellt eine absurde oder knifflige Aufgabe, und die Spieler müssen in
+                  kurzer Zeit reagieren. Punkte gibt es nicht nur für richtige Antworten, sondern
+                  auch für Kreativität, Mut und Timing.
+                </p>
+              </article>
+              <article class="info-card game-card">
+                <span class="card-number">02</span>
+                <h4>Joker-Markt</h4>
+                <p>
+                  Coins werden gegen kurzfristige Vorteile, Sabotageoptionen oder riskante
+                  Power-Moves getauscht. Gute Spieler sparen nicht nur, sie spüren auch den
+                  perfekten Moment zum Eskalieren.
+                </p>
+              </article>
+              <article class="info-card game-card">
+                <span class="card-number">03</span>
+                <h4>Truth or Algorithm</h4>
+                <p>
+                  Zwischen echten Aussagen und KI-generierten Behauptungen entscheidet oft das
+                  Bauchgefühl. Wer falsch liegt, schenkt den anderen Punkte und der KI eine Vorlage
+                  für Spott.
+                </p>
+              </article>
+              <article class="info-card game-card">
+                <span class="card-number">04</span>
+                <h4>Story Sprint</h4>
+                <p>
+                  Innerhalb weniger Sekunden muss aus einem absurden Prompt eine brauchbare
+                  Mini-Story entstehen. Bewertet werden Tempo, Originalität und die Fähigkeit, aus
+                  Chaos Charisma zu machen.
+                </p>
+              </article>
+              <article class="info-card game-card">
+                <span class="card-number">05</span>
+                <h4>Chaos Contracts</h4>
+                <p>
+                  Vor einer Runde schließt ihr geheime Abmachungen mit Chancen und Nebenwirkungen.
+                  Manche Deals zahlen sich erst spät aus, andere detonieren sofort mitten in der
+                  Gruppe.
+                </p>
+              </article>
+            </div>
+          </article>
+
+          <article
+            id="panel-regeln"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-regeln"
+            data-panel="regeln"
+            hidden
+          >
+            <div class="panel-head">
+              <p class="panel-label">REGELN</p>
+              <h3>Einfach zu lernen, schwer zu meistern</h3>
+            </div>
+
+            <div class="rules-layout">
+              <div class="card-grid rules-grid">
+                <article class="info-card">
+                  <h4>Setup</h4>
+                  <p>
+                    Eine Person erstellt die Lobby, alle anderen treten per Code bei. Danach wählt
+                    ihr Spielmodus, Gruppengröße und den Ton der KI.
+                  </p>
+                </article>
+                <article class="info-card">
+                  <h4>Spielablauf</h4>
+                  <p>
+                    Das Spiel verläuft in mehreren Runden. In jeder Runde gibt es ein Minigame,
+                    eine Auswertung und oft ein unerwartetes Event.
+                  </p>
+                </article>
+                <article class="info-card">
+                  <h4>Punkte und Coins</h4>
+                  <p>
+                    Punkte entscheiden über den Sieg. Coins dienen als Ingame-Währung für Joker,
+                    Vorteile oder riskante Entscheidungen.
+                  </p>
+                </article>
+                <article class="info-card">
+                  <h4>Joker</h4>
+                  <p>
+                    Joker erlauben besondere Aktionen und können einzelne Runden komplett verändern.
+                    Sie sind stark, aber nie ohne Risiko.
+                  </p>
+                </article>
+                <article class="info-card">
+                  <h4>Finale</h4>
+                  <p>
+                    Im letzten Abschnitt der Partie kann die KI das Kräfteverhältnis noch einmal
+                    verändern. Wer bis dahin geführt hat, ist noch lange nicht sicher.
+                  </p>
+                </article>
+              </div>
+
+              <aside class="joker-card">
+                <p class="panel-label">BEISPIEL-JOKER</p>
+                <ul class="joker-list">
+                  <li><strong>Rewind</strong><span>Setzt eine gerade getroffene Entscheidung zurück.</span></li>
+                  <li><strong>Double Down</strong><span>Verdoppelt Einsatz und Wirkung einer Runde.</span></li>
+                  <li><strong>Swap</strong><span>Tauscht kurzfristig Rollen, Punkte oder Positionen.</span></li>
+                  <li><strong>Chaos Token</strong><span>Gibt der KI freie Hand für einen abrupten Twist.</span></li>
+                </ul>
+              </aside>
+            </div>
+          </article>
+
+          <article
+            id="panel-stimmen"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-stimmen"
+            data-panel="stimmen"
+            hidden
+          >
+            <div class="panel-head">
+              <p class="panel-label">STIMMEN</p>
+              <h3>Was andere über KI-Miniparty sagen</h3>
+            </div>
+
+            <div class="card-grid quotes-grid">
+              <figure class="quote-card">
+                <blockquote>
+                  „Das ist das erste Spiel, bei dem wir gleichzeitig lachen, diskutieren und
+                  komplett an der KI verzweifeln.“
+                </blockquote>
+                <figcaption>Playtester</figcaption>
+              </figure>
+              <figure class="quote-card">
+                <blockquote>
+                  „Es fühlt sich an wie ein Brettspiel mit einem Live-Kommentator, der uns ständig
+                  provoziert.“
+                </blockquote>
+                <figcaption>Schüler</figcaption>
+              </figure>
+              <figure class="quote-card">
+                <blockquote>
+                  „Die Joker machen jede Runde anders. Genau dadurch bleibt es spannend.“
+                </blockquote>
+                <figcaption>Spieleabend-Gruppe</figcaption>
+              </figure>
+              <figure class="quote-card">
+                <blockquote>
+                  „Perfekt für Freunde, Klassen oder Feiern. Jeder kann sofort mitmachen.“
+                </blockquote>
+                <figcaption>Eventrunde</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article
+            id="panel-geschichte"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-geschichte"
+            data-panel="geschichte"
+            hidden
+          >
+            <div class="panel-head">
+              <p class="panel-label">GESCHICHTE</p>
+              <h3>Wie aus einer Idee ein hybrides Spiel wurde</h3>
+            </div>
+
+            <div class="panel-copy">
+              <p>
+                KI-Miniparty entstand aus der Frage, wie ein Brettspiel aussehen könnte, wenn der
+                Spielleiter keine Person, sondern eine künstliche Intelligenz wäre. Daraus
+                entwickelte sich Schritt für Schritt ein System, das analoge Nähe mit digitaler
+                Steuerung verbindet.
+              </p>
+              <p>
+                Die ersten Ideen waren experimentell, doch in frühen Tests zeigte sich schnell,
+                dass gerade die Mischung aus klaren Regeln und unvorhersehbarer KI-Interaktion den
+                größten Reiz ausmacht. Aus einem einfachen Konzept wurde ein Projekt, das Spiel,
+                Technik und Gruppendynamik miteinander verbindet.
+              </p>
+              <p>
+                Heute steht KI-Miniparty für einen neuen Ansatz des gemeinsamen Spielens: nicht
+                entweder analog oder digital, sondern bewusst beides zugleich.
+              </p>
+            </div>
+
+            <ol class="timeline" aria-label="Projektverlauf">
+              <li class="timeline-item">
+                <span class="timeline-index">01</span>
+                <h4>Idee</h4>
+                <p>
+                  Die Ausgangsfrage war einfach: Wie verändert sich ein Brettspiel, wenn die
+                  Spielleitung selbst zur aktiven Figur wird?
+                </p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-index">02</span>
+                <h4>Prototyp</h4>
+                <p>
+                  Erste Regeln, erste Lobby, erste Minigames. Der Fokus lag darauf, Tischrunde und
+                  digitalen Fortschritt sauber zu verzahnen.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-index">03</span>
+                <h4>Playtests</h4>
+                <p>
+                  In Testrunden zeigte sich, dass Roasts, Joker und spontane Regel-Auslegung die
+                  stärksten Erinnerungsmomente erzeugen.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-index">04</span>
+                <h4>Finale Vision</h4>
+                <p>
+                  Ein Format, das Freunde, Klassen und Gruppen sofort verstehen, aber durch die KI
+                  immer wieder neu erleben.
+                </p>
+              </li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div class="footer-copy">
+        <p class="footer-title">KI-Miniparty</p>
+        <p class="footer-text">Hybrid spielen. Gemeinsam erleben.</p>
+        <p class="footer-contact" id="footer-contact">Kontakt auf Anfrage</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#tabs" data-tab-target="konzept">Konzept</a>
+        <a href="#tabs" data-tab-target="spiele">Spiele</a>
+        <a href="#tabs" data-tab-target="regeln">Regeln</a>
+        <a href="#footer-contact">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
